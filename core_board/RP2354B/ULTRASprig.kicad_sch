@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dc8507cf-781c-4d60-b864-1d9c098e6b00")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 170.942 123.698)
+		(size 25.146 32.004)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "042e7539-4c05-4463-91ed-ae417e051290")
+		(property "Sheetname" "RP2354 Board"
+			(at 170.942 122.9864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2354B.kicad_sch"
+			(at 170.942 156.2866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ULTRASprig"
+				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

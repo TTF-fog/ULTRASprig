@@ -674,7 +674,7 @@
         "uuid": "dc8507cf-781c-4d60-b864-1d9c098e6b00"
       }
     ],
-    "used_designators": "SW10,J10,J13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -684,7 +684,7 @@
     ],
     [
       "92109296-5ac9-42f4-8a09-633029cee3b4",
-      "CoreRP2354B"
+      "RPBreakout"
     ]
   ],
   "text_variables": {},

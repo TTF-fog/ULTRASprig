@@ -3803,9 +3803,25 @@
 		(color 0 0 0 0)
 		(uuid "d2baa72f-00ff-434c-a139-e8010220f2e7")
 	)
+	(junction
+		(at 111.76 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdbb7bcb-4b7d-4e26-a949-d4005840a96d")
+	)
 	(no_connect
 		(at 85.09 171.45)
 		(uuid "e578684e-e8d8-4c61-b150-6ec5ef3adbc3")
+	)
+	(wire
+		(pts
+			(xy 111.76 16.51) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c93cd7d-7f4f-4676-a758-996db4f5f6b8")
 	)
 	(wire
 		(pts
@@ -4057,6 +4073,16 @@
 		)
 		(uuid "e8509735-4d6e-4984-83f6-4600641e7083")
 	)
+	(wire
+		(pts
+			(xy 111.76 19.05) (xy 111.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf516b0-8ad6-4923-bab8-5424becdf9db")
+	)
 	(label "IO27"
 		(at 76.2 116.84 0)
 		(effects
@@ -4108,7 +4134,7 @@
 		(uuid "0ecc12df-19ed-4514-865c-a6aa6c0d0464")
 	)
 	(label "CS"
-		(at 111.76 26.67 90)
+		(at 111.76 16.51 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4176,6 +4202,16 @@
 			(justify left bottom)
 		)
 		(uuid "1f10b11f-c383-4849-aa9d-98c3b6b55503")
+	)
+	(label "USB_BOOT"
+		(at 111.76 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22defb7d-5956-43da-8357-1f7aaed0a9de")
 	)
 	(label "SD1"
 		(at 35.56 78.74 0)
@@ -6963,6 +6999,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 19.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c30a5df-0423-4424-a67b-5e4722a64d40")
+		(property "Reference" "R2"
+			(at 115.57 12.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 115.57 15.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 20.828 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0958d380-59a5-45a3-96db-ae67d93d90c3")
+		)
+		(pin "1"
+			(uuid "f9cbe55e-8228-41e4-ba20-ae9203b370a2")
+		)
+		(instances
+			(project "ULTRASprig"
+				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 154.94 270)
 		(unit 1)
@@ -7124,6 +7240,84 @@
 			(project "ULTRASprig"
 				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5155c4f2-2ec3-4991-96ee-a52792b0c1fa")
+		(property "Reference" "#PWR016"
+			(at 129.54 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c98236aa-0de4-477c-8c8f-abb8fc061594")
+		)
+		(instances
+			(project "ULTRASprig"
+				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8170,6 +8364,86 @@
 			(project "ULTRASprig"
 				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 124.46 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c5e7d0-5c00-4a37-b194-3a696c018b66")
+		(property "Reference" "SW10"
+			(at 124.46 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 124.46 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+			(at 124.46 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 124.46 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c9a0335-a767-4591-a13e-30ea43f3336e")
+		)
+		(pin "1"
+			(uuid "44f4109d-61f8-4eeb-829a-ebe1deb04890")
+		)
+		(instances
+			(project "ULTRASprig"
+				(path "/dc8507cf-781c-4d60-b864-1d9c098e6b00"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10819,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "92109296-5ac9-42f4-8a09-633029cee3b4")
-		(property "Sheetname" "CoreRP2354B"
+		(property "Sheetname" "RPBreakout"
 			(at 88.9 25.908 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10831,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Breakout.kicad_sch"
 			(at 88.9 76.1496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10566,6 +10840,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 88.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3V3" input

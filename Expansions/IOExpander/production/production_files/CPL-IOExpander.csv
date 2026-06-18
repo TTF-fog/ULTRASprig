@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0603_1608Metric,145.725,-59.25,0.0,top
+C2,100nF,C_0603_1608Metric,145.725,-60.75,0.0,top
+J1,Conn_01x04,PinHeader_1x04_P2.54mm_Horizontal,146.25,-67.27,0.0,top
+J2,Conn_01x08,PinHeader_1x08_P2.54mm_Horizontal,131.0,-68.61,180.0,top
+U1,PCF8574AP,DIP-16_W7.62mm,139.06,-67.89,0.0,top

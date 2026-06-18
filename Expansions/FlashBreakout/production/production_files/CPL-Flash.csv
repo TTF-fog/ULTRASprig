@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0402_1005Metric,69.36,-128.92,-45.0,top
+D1,LED,LED_0603_1608Metric,69.2,-125.6,90.0,top
+J1,Conn_01x08_Pin,PinHeader_1x08_P2.54mm_Horizontal,66.04,-126.491999,180.0,top
+R1,0,R_0402_1005Metric,69.6,-135.6,0.0,top
+R2,1K,R_0402_1005Metric,70.4,-123.8,135.0,top
+U2,W25Q128JVS,SOIC-8_5.3x5.3mm_P1.27mm,73.3044,-129.8133,180.0,top

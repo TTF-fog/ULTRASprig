@@ -1,5 +1,7 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,100nF,C_0402_1005Metric,127.0736,-74.2696,180.0,top
+C15,100nF,C_0402_1005Metric,204.23,-98.75,0.0,top
+C16,100nF,C_0402_1005Metric,204.23,-99.75,0.0,top
 C2,100nF,C_0402_1005Metric,127.0736,-72.2996,180.0,top
 D10,SK6812,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,203.22,-66.68,-90.0,top
 D11,PWR,LED_0603_1608Metric,236.15,-70.8,-135.0,top
@@ -22,7 +24,10 @@ J7,Conn_01x08_Pin,PinSocket_1x08_P2.54mm_Horizontal,177.009999,-61.9,-90.0,top
 J8,Conn_01x04_Pin,PinSocket_1x04_P2.54mm_Horizontal,153.292467,-106.68,90.0,top
 J9,Conn_01x04_Pin,PinSocket_1x04_P2.54mm_Horizontal,134.493,-106.68,90.0,top
 R1,1K,R_0402_1005Metric,238.99,-69.75,0.0,top
+R2,1K,R_0603_1608Metric,164.25,-71.25,180.0,bottom
+R3,1M,R_0603_1608Metric,208.25,-99.5,-45.0,top
 SW1,SW_Push,SW_PUSH-12mm,205.259,-83.907,0.0,top
+SW10,SW_Push,SW_Push_1P1T_NO_CK_KMR2,167.8,-72.450001,270.0,bottom
 SW2,SW_Push,SW_PUSH-12mm,220.753,-98.385,0.0,top
 SW3,SW_Push,SW_PUSH-12mm,236.43,-83.66,0.0,top
 SW4,SW_Push,SW_PUSH-12mm,220.86,-69.22,0.0,top

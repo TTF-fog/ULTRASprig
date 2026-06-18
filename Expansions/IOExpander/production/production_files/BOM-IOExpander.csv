@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100nF,"C1,C2",C_0603_1608Metric,C14663,2
+Conn_01x04,J1,PinHeader_1x04_P2.54mm_Horizontal,C52016392,1
+PCF8574AP,U1,DIP-16_W7.62mm,C398072,1
+Conn_01x08,J2,PinHeader_1x08_P2.54mm_Horizontal,C20607071,1

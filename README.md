@@ -5,6 +5,9 @@ an updated version of the [Sprig](https://github.com/hackclub/sprig/), made to b
 # Why?
 the current model of the sprig is a bit... outdated. It still runs on the RP2040, has only 4 (broken out) gpios and just 2Mb of flash. The ULTRASprig has 7 usable GPIOs, and a completely new expansion system that allows for up to 16MB of additional flash, + PSRAM. it also uses I2C "modules" to give even more  interfaces
 
+## Notes:
+- KiCad will throw a DRC error for the placement of the mounting headers (courtyard overlap with display), but this can be ignored safely 
+
 # Setup
 ## RP2354B
 - get the larger packages (the BQ, RP2354, and the TP) pre-assembled
@@ -21,9 +24,9 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 # Sub(Links)
 - [Zine](Sprig_Zine.pdf)
 - Mainboard
-    - [Mainboard BoM](BOM.csv)
-    - [Gerbers - Mainboard](gerbers.zip)
-    - [Mainboard Design -- root folder](.)
+    - [Mainboard BoM](Mainboard/BOM.csv)
+    - [Gerbers - Mainboard](Mainboard/gerbers.zip)
+    - [Mainboard Design](Mainboard/)
 - Core Board
     - [Core BoM](core_board/RP2354B/BOM.csv)
     - [Coreboard Design Files](core_board/RP2354B/)

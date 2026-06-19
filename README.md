@@ -36,9 +36,9 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
         - [Gerbers](Expansions/FlashBreakout/gerbers.zip)
         - [BoM](Expansions/FlashBreakout/BOM.csv)
     - IMU Breakout   
-    - [Design](Expansions/IMUBreakout/)
-    - [Gerbers](Expansions/IMUBreakout/Gerbers.zip)
-    - [BoM](Expansions/IMUBreakout/BOM.csv)
+        - [Design](Expansions/IMUBreakout/)
+        - [Gerbers](Expansions/IMUBreakout/Gerbers.zip)
+        - [BoM](Expansions/IMUBreakout/BOM.csv)
 
 - [Gerbers - coreboard](core_board/RP2354B/Gerbers.zip)
 # Renders

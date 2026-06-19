@@ -19,11 +19,27 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 - build the firmware and flash it on the sprig
 
 # Sub(Links)
-- [Mainboard BoM](BOM.csv)
-- [Core BoM](core_board/RP2354B/BOM.csv)
-- [Coreboard Design Files](core_board/RP2354B/)
-- [Expansions](expansions)
-- [Gerbers - Mainboard](gerbers.zip)
+- Mainboard
+    - [Mainboard BoM](BOM.csv)
+    - [Gerbers - Mainboard](gerbers.zip)
+    - [Mainboard Design -- root folder](.)
+- Core Board
+    - [Core BoM](core_board/RP2354B/BOM.csv)
+    - [Coreboard Design Files](core_board/RP2354B/)
+- Expansions
+    - IO Expander   
+        - [Design](Expansions/IOExpander/)
+        - [Gerbers](Expansions/IOExpander/Gerbers.zip)
+        - [BoM](Expansions/IOExpander/BOM.csv)
+    - Flash Breakout   
+        - [Design](Expansions/FlashBreakout/)
+        - [Gerbers](Expansions/FlashBreakout/gerbers.zip)
+        - [BoM](Expansions/FlashBreakout/BOM.csv)
+    - IMU Breakout   
+    - [Design](Expansions/IMUBreakout/)
+    - [Gerbers](Expansions/IMUBreakout/Gerbers.zip)
+    - [BoM](Expansions/IMUBreakout/BOM.csv)
+
 - [Gerbers - coreboard](core_board/RP2354B/Gerbers.zip)
 # Renders
 ![front view](images/image.png)

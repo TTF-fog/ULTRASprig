@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC,Quantity,Link,Unit Price,Total Price
+100nF,"C1,C2",C_0603_1608Metric,C14663,2,https://www.lcsc.com/product-detail/C14663.html,0.0172,1.72
+Conn_01x04,J1,PinHeader_1x04_P2.54mm_Horizontal,C52016392,1,https://www.lcsc.com/product-detail/C52016392.html,0.0283,0.57
+PCF8574AP,U1,DIP-16_W7.62mm,C398072,1,https://www.lcsc.com/product-detail/C398072.html,0.79,0.79
+Conn_01x08,J2,PinHeader_1x08_P2.54mm_Horizontal,C20607071,1,https://www.lcsc.com/product-detail/C20607071.html,0.0958,0.48
+PCB Milling,n/a,n/a,n/a,1,https://jlcpcb.com,2.2,2.2
+,,,,,,3.1313,5.76

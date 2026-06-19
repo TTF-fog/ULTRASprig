@@ -1,7 +1,9 @@
-Comment,Designator,Footprint,LCSC,Quantity
-0,R1,R_0402_1005Metric,C17168,1
-100nF,C1,C_0402_1005Metric,C1525,1
-1K,R2,R_0402_1005Metric,C11702,1
-Conn_01x08_Pin,J1,PinHeader_1x08_P2.54mm_Horizontal,C42431840,1
-LED,D1,LED_0603_1608Metric,C2286,1
-W25Q128JVS,U2,SOIC-8_5.3x5.3mm_P1.27mm,C97521,1
+Comment,Designator,Footprint,LCSC,Quantity,Link,Per Unit,Total
+0,R1,R_0402_1005Metric,C17168,1,https://lcsc.com/product-detail/C17168.html,0.0011,0.11
+100nF,C1,C_0402_1005Metric,C1525,1,https://lcsc.com/product-detail/C1525.html,0.0031,0.31
+1K,R2,R_0402_1005Metric,C11702,1,https://lcsc.com/product-detail/C11702.html,0.0011,0.11
+Conn_01x08_Pin,J1,PinHeader_1x08_P2.54mm_Horizontal,C42431840,1,https://lcsc.com/product-detail/C42431840.html,0.1002,0.5
+LED,D1,LED_0603_1608Metric,C2286,1,https://lcsc.com/product-detail/C2286.html,0.0073,0.73
+W25Q128JVS,U2,SOIC-8_5.3x5.3mm_P1.27mm,C97521,1,https://lcsc.com/product-detail/C97521.html,2.4553,2.46
+PCB,N/A,N/A,N/A,1,https://jlcpcb.com,2.1,2.1
+,,,,,,4.6681,6.32

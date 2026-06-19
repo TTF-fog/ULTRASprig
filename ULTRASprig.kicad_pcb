@@ -4076,6 +4076,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/models/imu.step"
+			(hide yes)
 			(offset
 				(xyz -172.085 -132.08 4.445)
 			)
@@ -7155,6 +7156,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/models/flash.step"
+			(hide yes)
 			(offset
 				(xyz 51.435 -135.255 -1.27)
 			)

@@ -1055,7 +1055,7 @@
 			(uuid "c85762b2-b9c9-4bce-9167-c5547a94a8b9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -2775,7 +2775,7 @@
 			(uuid "8a3e409f-eca2-42fe-ba13-86f2153598ed")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -3332,7 +3332,7 @@
 			(uuid "8e138c7f-9940-4e75-8dc1-6e23d16d86e0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -4075,8 +4075,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/models/imu.step"
-			(hide yes)
+		(model "${KIPRJMOD}/../models/imu.step"
 			(offset
 				(xyz -172.085 -132.08 4.445)
 			)
@@ -5955,7 +5954,7 @@
 			(uuid "6abf1425-4ff3-4fa5-9582-f4c80ec54d99")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -7155,8 +7154,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/models/flash.step"
-			(hide yes)
+		(model "${KIPRJMOD}/../models/flash.step"
 			(offset
 				(xyz 51.435 -135.255 -1.27)
 			)
@@ -9184,7 +9182,7 @@
 			(uuid "daf6dbb3-f72f-45cc-b1f0-455f2769397e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -9431,7 +9429,7 @@
 			(uuid "2b523310-adad-4be3-865e-42ea3c9427fe")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -9795,7 +9793,7 @@
 			(uuid "f304a227-8bd3-4d6a-80d6-0a1ba06e1351")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -10275,7 +10273,7 @@
 			(uuid "1d32187b-c8a4-4a59-a88b-6c5dc9979045")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
+		(model "${KIPRJMOD}/../models/bug-pushbutton-12x12mm-1.snapshot.2/Big_pushbutton.stp"
 			(offset
 				(xyz 6.35 -2.54 0)
 			)
@@ -13734,7 +13732,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/models/RP.step"
+		(model "${KIPRJMOD}/../models/RP.step"
 			(offset
 				(xyz -267.335 131.445 11.43)
 			)

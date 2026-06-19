@@ -19,6 +19,7 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 - build the firmware and flash it on the sprig
 
 # Sub(Links)
+- [Zine](Sprig_Zine.pdf)
 - Mainboard
     - [Mainboard BoM](BOM.csv)
     - [Gerbers - Mainboard](gerbers.zip)
@@ -41,6 +42,10 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
         - [BoM](Expansions/IMUBreakout/BOM.csv)
 
 - [Gerbers - coreboard](core_board/RP2354B/Gerbers.zip)
+
+# Zine
+![Zine](images/Zine.png)
+> check the pdf version too!
 # Renders
 ![front view](images/image.png)
 > front view

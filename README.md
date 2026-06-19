@@ -18,15 +18,35 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 # Usage
 - build the firmware and flash it on the sprig
 
-# Images
+# Sub(Links)
+- [Mainboard BoM](BOM.csv)
+- [Core BoM](core_board/RP2354B/BOM.csv)
+- [Coreboard Design Files](core_board/RP2354B/)
+- [Expansions](expansions)
+- [Gerbers - Mainboard](gerbers.zip)
+- [Gerbers - coreboard](core_board/RP2354B/Gerbers.zip)
+# Renders
 ![front view](images/image.png)
 > front view
 
 ![back view w/ board and battery headers](images/buh.png)
 > back view w/ board and battery headers
 
+![main board with modules](images/modules.png)
+> front view, main board with modules
+
+
+# Routing
+
 ![routed mainboard](images/image-1.png)
 > routed mainboard
 
 ![routed coreboard](images/image%20copy.png)
 > routed coreboard
+
+# Schematics
+![mainboard schematic](images/mainboard_schem.png)
+> mainboard schematic
+
+![core schematic](images/core.png)
+> coreboard schematic

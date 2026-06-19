@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0402_1005Metric,152.8572,-127.3328,-90.0,top
+D1,LED,LED_0603_1608Metric,155.17,-126.807501,90.0,top
+J1,Conn_01x04_Socket,PinHeader_1x04_P2.54mm_Horizontal,157.8,-128.26,0.0,top
+R1,1K,R_0402_1005Metric,153.3652,-125.6792,0.0,top
+R2,1K,R_0402_1005Metric,153.8,-127.2,90.0,top
+U1,LSM6DS3,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,154.3831,-130.360801,-90.0,top

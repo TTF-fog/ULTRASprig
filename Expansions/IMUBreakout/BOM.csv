@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100nF,C1,C_0402_1005Metric,C1525,1
+1K,"R1,R2",R_0402_1005Metric,C11702,2
+Conn_01x04_Socket,J1,PinHeader_1x04_P2.54mm_Horizontal,C194925,1
+LED,D1,LED_0603_1608Metric,C2286,1
+LSM6DS3,U1,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,C967633,1

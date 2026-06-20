@@ -3,6 +3,6 @@ Comment,Designator,Footprint,LCSC,Quantity,Link,Unit Price,Total Price
 1K,"R1,R2",R_0402_1005Metric,C11702,2,https://www.lcsc.com/product-detail/C11702.html,0.0011,0.11
 Conn_01x04_Socket,J1,PinHeader_1x04_P2.54mm_Horizontal,C194925,1,https://www.lcsc.com/product-detail/C194925.html,0.1205,0.6
 LED,D1,LED_0603_1608Metric,C2286,1,https://www.lcsc.com/product-detail/C2286.html,0.0073,0.73
-LSM6DS3,U1,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,C967633,1,https://www.lcsc.com/product-detail/C967633.html,1.576,1.58
-Milling,N/A,N/A, N/A,1,https://jlcpcb.com,2.2,2.2
+LSM6DS3,U1,LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,C967633,1,https://www.lcsc.com/product-detail/C967633.html,1.576,1.58PCB
+PCB Milling,N/A,N/A, N/A,1,https://jlcpcb.com,2.2,2.2
 ,,,,,,3.908,5.53

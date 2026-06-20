@@ -3,7 +3,7 @@ Comment,Designator,Footprint,LCSC,Quantity,URL, Unit Price,Price
 1K,R1,R_0402_1005Metric,C11702,1,https://www.lcsc.com/product-detail/C11702.html ,0.0011,0.011
 1K,R2,R_0603_1608Metric,C21190,1,https://www.lcsc.com/product-detail/C21190.html ,0.0017,0.017
 1M,R3,R_0603_1608Metric,C22935,1,https://www.lcsc.com/product-detail/C22935.html,0.0018,0.18
-Conn_01x02,"J10,J6",PinHeader_1x02_P2.54mm_Vertical,C492401,2,https://www.lcsc.com/product-detail/C492401.html,0.0161,0.81
+Conn_01x02,"J10,J6,J14",PinHeader_1x02_P2.54mm_Vertical,C492401,3,https://www.lcsc.com/product-detail/C492401.html,0.0161,0.95
 Conn_01x04_Pin,"J11,J12,J8,J9",PinSocket_1x04_P2.54mm_Horizontal,C2718488,4,https://www.lcsc.com/product-detail/C2718488.html,0.0786,0.79
 Conn_01x06,J4,PinSocket_1x06_P2.54mm_Vertical,C7499363,1,https://www.lcsc.com/product-detail/C7499363.html,0.1286,0.64
 Conn_01x07_Pin,J13,PinSocket_1x07_P2.54mm_Vertical,C5371993,1,https://www.lcsc.com/product-detail/C5371993.html,0.0963,0.48
@@ -17,4 +17,4 @@ SW_Push,"SW1,SW10,SW2,SW3,SW4,SW5,SW6,SW7,SW8",SW_PUSH-12mm,C963201,9,https://ww
 SW_SPDT,SW9,SW_SPST_B3S-1100,C7421519,1,https://www.lcsc.com/product-detail/C7421519.html,0.444,0.44
 CR2013-MI2120,U5,CR2013-MI2120,N/A,1,https://robu.in/product/2-8-inch-lcm-tft-color-screen-ili9341v-with-spi-serial-port/,9.4,9.41
 PCB Milling,N/A,N/A,N/A,,https://jlcpcb.com,7.7,7.7
-,,,,,,19.8755,26.898
+,,,,,,19.8755,27.038

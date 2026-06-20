@@ -68,6 +68,9 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 
 ![CAD](images/imagecopy2.png)
 > case for the ULTRASprig
+
+![the 13th reason](image-1.png)
+> textured preview of CAD
 # Routing
 
 ![routed mainboard](images/image-1.png)
@@ -82,3 +85,5 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 
 ![core schematic](images/core.png)
 > coreboard schematic
+
+> note: some of the cad model pictures are outdated, double-check the source file

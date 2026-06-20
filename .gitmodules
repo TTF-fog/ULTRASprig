@@ -1,0 +1,3 @@
+[submodule "sprig"]
+	path = sprig
+	url = https://github.com/hackclub/sprig

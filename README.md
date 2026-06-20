@@ -28,8 +28,8 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 # Sub(Links)
 - [Zine](Sprig_Zine.pdf)
 - Mainboard
-    - [Mainboard BoM](Mainboard/BOM.csv)
-    - [Gerbers - Mainboard](Mainboard/gerbers.zip)
+    - [Mainboard BoM](BOM.csv)
+    - [Gerbers - Mainboard](gerbers.zip)
     - [Mainboard Design](Mainboard/)
 - Core Board
     - [Core BoM](core_board/RP2354B/BOM.csv)

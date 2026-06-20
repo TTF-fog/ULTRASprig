@@ -16,8 +16,12 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 ## Mainboard
 - Solder all components except the pinsockets
 - while soldering the pinsockets, make sure to have 1mm of clearance between the tips and the SPI display
+- insert the SD Card into the SPI Display
 - for the battery headers, one battery header will be connected to the + and - of the battery, and the other should be connected to the battery pins of the coreboard
-
+## Case
+- the case must be printed in two parts, the front and the back
+- there are 4 mounting holes in the case, which must be connected using screws to those mounting holes on the mainboard
+- after that, place the backplate, ensuring that the battery pins line up with the battery hoels
 # Usage
 - build the firmware and flash it on the sprig
 

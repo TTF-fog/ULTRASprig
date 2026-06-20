@@ -63,7 +63,11 @@ the current model of the sprig is a bit... outdated. It still runs on the RP2040
 ![main board with modules](images/modules.png)
 > front view, main board with modules
 
+![horrible blender render ](images/badrender.png)
+> a very rushed blender render rhyme
 
+![CAD](images/imagecopy2.png)
+> case for the ULTRASprig
 # Routing
 
 ![routed mainboard](images/image-1.png)
